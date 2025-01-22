@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_vertical"
+    android:background="#D9CACA">
+
+    <!-- Title: Contact Us -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#333"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center"/>
+
+    <!-- Email -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: support@campuscircle.com"
+        android:textColor="#6200EA"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center"/>
+
+    <!-- Phone -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: +123 456 7890"
+        android:textColor="#6200EA"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center"/>
+
+    <!-- Developer Information -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer: Shoyeb Chaudhari"
+        android:textColor="#888"
+        android:textSize="14sp"
+        android:layout_gravity="center"/>
+
+    <!-- Spacer to push content towards the center -->
+
+
+</LinearLayout>

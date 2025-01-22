@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#D9CACA"
+    android:padding="16dp">
+
+    <!-- Alumni Profile Image -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/alumni_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/roundedImageView"
+        android:background="@drawable/circular_border"
+        android:src="@drawable/alumni_image1" /> <!-- Replace with a sample image -->
+
+    <!-- Alumni Details Section -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="16dp">
+
+        <!-- Alumni Name -->
+        <TextView
+            android:id="@+id/alumni_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alumni Name"
+            android:textSize="18sp"
+            android:textColor="#000" />
+
+        <!-- Passout Year -->
+        <TextView
+            android:id="@+id/alumni_passout_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passout Year: 2020"
+            android:textSize="14sp"
+            android:textColor="#555" />
+
+        <!-- GitHub ID -->
+        <TextView
+            android:id="@+id/alumni_github_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GitHub: github.com/username"
+            android:textSize="14sp"
+            android:textColor="#555" />
+
+        <!-- Job Position -->
+        <TextView
+            android:id="@+id/alumni_job_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Software Engineer"
+            android:textSize="14sp"
+            android:textColor="#555" />
+
+        <!-- Company Name -->
+        <TextView
+            android:id="@+id/alumni_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company: Google"
+            android:textSize="14sp"
+            android:textColor="#555" />
+
+        <!-- View Projects Button -->
+        <Button
+            android:id="@+id/view_projects_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Projects"
+            android:backgroundTint="#9C27B0"
+            android:textColor="#FFF"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>

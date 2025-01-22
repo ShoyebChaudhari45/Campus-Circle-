@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:elevation="6dp"
+    android:backgroundTint="@android:color/white"
+    android:layout_gravity="center"
+    android:background="@drawable/job_card_background"> <!-- Rounded corners background -->
+
+    <!-- Job Title with Icon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_job_title"
+            android:contentDescription="Job Title Icon"
+            android:layout_marginEnd="8dp"
+            app:tint="#1E88E5" />
+
+        <TextView
+            android:id="@+id/job_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job Title"
+            android:textColor="#1E1E1E"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+
+    <!-- Company Name with Icon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_company"
+            android:contentDescription="Company Icon"
+            android:layout_marginEnd="8dp"
+            app:tint="#5A5A5A" />
+
+        <TextView
+            android:id="@+id/job_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company Name"
+            android:textColor="#5A5A5A"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"/>
+    </LinearLayout>
+
+    <!-- Job Location with Icon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_location"
+            android:contentDescription="Location Icon"
+            android:layout_marginEnd="8dp"
+            app:tint="#757575" />
+
+        <TextView
+            android:id="@+id/job_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textColor="#757575"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"/>
+    </LinearLayout>
+
+    <!-- Job Type (e.g., Full-time, Remote) -->
+    <TextView
+        android:id="@+id/job_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full-time, Remote"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif"/>
+
+    <!-- Alumni Working Info -->
+    <TextView
+        android:id="@+id/alumni_working_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 alumni working here"
+        android:textColor="#388E3C"
+        android:textStyle="italic"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Date Posted -->
+    <TextView
+        android:id="@+id/date_posted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posted 3 days ago"
+        android:textColor="#757575"
+        android:textSize="12sp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif"/>
+
+    <!-- Save/Bookmark Button -->
+    <ImageView
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bookmark"
+        android:contentDescription="Save Job"
+        android:layout_gravity="end"
+        android:layout_marginBottom="12dp"
+        app:tint="#FF9800" />
+
+    <!-- Apply Button with Adjusted Position and Styling -->
+    <Button
+        android:id="@+id/btn_apply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:elevation="14dp"
+        android:layout_marginTop="4dp"
+
+   />
+</LinearLayout>

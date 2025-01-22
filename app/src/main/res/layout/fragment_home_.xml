@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Fragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="#D9CACA">
+
+        <!-- Grid Layout for Upcoming Events, Job Statistics, Alumni Meetup, and Donation -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_gravity="center">
+
+            <!-- Upcoming Events Card -->
+            <LinearLayout
+                android:id="@+id/upcoming_events_card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/events_image"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/upcoming_events" /> <!-- Replace with your image -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upcoming Events"
+                    android:textSize="14sp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <!-- Job Statistics Card -->
+            <LinearLayout
+                android:id="@+id/job_statistics_card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/jobs_image"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/alumini_list" /> <!-- Replace with your image -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Job Statistics"
+                    android:textSize="14sp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <!-- Alumni Meetup Card -->
+            <LinearLayout
+                android:id="@+id/alumni_meetup_card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/meetup_image"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/profile_alumini" /> <!-- Replace with your image -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" College Alumni"
+                    android:textSize="14sp"
+                    android:layout_marginTop="0dp"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <!-- Contribute Card -->
+            <LinearLayout
+                android:id="@+id/contribute_card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/contribute_image"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/contribute" /> <!-- Replace with your image -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contribute"
+                    android:textSize="14sp"
+                    android:layout_marginTop="0dp"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+        </GridLayout>
+
+    </GridLayout>
+
+    <!-- Recent News/Updates Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="284dp"
+        android:layout_gravity="bottom|center"
+        android:background="#D9CACA"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recent_news_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center"
+            android:text="Recent News  Updates"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+</FrameLayout>

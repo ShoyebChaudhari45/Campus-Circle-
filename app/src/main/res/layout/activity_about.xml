@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#D9CACA"
+    android:paddingBottom="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Campus Circle"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textColor="#0A0B0A"
+        android:layout_marginBottom="45dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campus Circle is a platform connecting students and alumni. Our mission is to provide a collaborative space for career advice, networking, and mentorship."
+        android:textColor="#2D3147"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingExtra="4dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We aim to bridge the gap between alumni and current students, offering a supportive network for skill development and professional growth."
+        android:textColor="#2D3147"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingExtra="4dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This app is specifically designed for CSMSS Chh. Shahu College of Engineering, Aurangabad, helping students and alumni stay connected and grow together."
+        android:textColor="#2D3147"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"
+        android:lineSpacingExtra="4dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Me: I am Shoyeb Chaudhari, the developer behind Campus Circle. I am passionate about creating platforms that connect people and foster learning. I hope Campus Circle serves as a valuable tool for both students and alumni."
+        android:textColor="#2D3147"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"
+        android:lineSpacingExtra="4dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Developer: Shoyeb Chaudhari"
+        android:textColor="#888"
+        android:textSize="14sp" />
+
+</LinearLayout>

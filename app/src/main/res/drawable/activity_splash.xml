@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_splash"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SplashActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/white_circle_splash"
+        android:layout_gravity="top|left"
+        android:translationX="-100dp"
+        android:translationY="-100dp" />
+
+    <ImageView
+        android:id="@+id/img_splash_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/logo_alumini" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alumini App"
+        android:textAlignment="center"
+        android:layout_marginBottom="60dp"
+        android:textStyle="bold"
+        android:textColor="#F7F6FB"
+        android:textSize="45sp" />
+
+    <LinearLayout
+        android:layout_marginTop="-70dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/ic_wave">
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

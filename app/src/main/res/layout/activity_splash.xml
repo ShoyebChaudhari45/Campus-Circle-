@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_splash"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".SplashActivity">
+
+    <!-- Centered Logo Image -->
+    <ImageView
+        android:id="@+id/img_splash_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/logo_alumini" />
+
+    <!-- App Title Text -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campus Circle"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPurple"
+        android:textSize="45sp"
+        android:layout_gravity="center" />
+
+    <!-- Slogan Text -->
+    <TextView
+        android:id="@+id/tv_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connecting Alumni, Building Futures"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="-40dp"
+        android:textColor="@color/colorPurple"
+        android:textSize="20sp"
+        android:layout_gravity="center" />
+
+    <!-- Bottom Design with Wave -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/ic_wave" />
+</androidx.appcompat.widget.LinearLayoutCompat>

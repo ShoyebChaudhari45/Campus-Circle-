@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "590594698848",
+    "project_id": "aluminiprojectdb",
+    "storage_bucket": "aluminiprojectdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590594698848:android:8c74d4d75faa8362b21d05",
+        "android_client_info": {
+          "package_name": "com.example.alumini_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAikTsD6CbwQyxIslP8amGGbV_Fys2CXoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

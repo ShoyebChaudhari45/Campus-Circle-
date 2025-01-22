@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Home -->
+    <item
+        android:id="@+id/home_menu"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+
+    <!-- Feedback -->
+    <item
+        android:id="@+id/feedback_menu"
+        android:orderInCategory="105"
+        android:title="Feedback"
+        app:showAsAction="never" />
+
+    <!-- Events -->
+    <item
+        android:id="@+id/events_menu"
+        android:orderInCategory="101"
+        android:title="Events"
+        app:showAsAction="never" />
+
+
+
+    <!-- Settings -->
+    <item
+        android:id="@+id/settings_menu"
+        android:orderInCategory="110"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <!-- Help -->
+
+    <!-- FAQ -->
+    <item
+        android:id="@+id/faq_menu"
+        android:orderInCategory="112"
+        android:title="FAQ"
+        app:showAsAction="never" />
+
+    <!-- Contact Us -->
+    <item
+        android:id="@+id/contact_menu"
+        android:orderInCategory="107"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+
+
+
+    <!-- Terms of Service -->
+
+    <!-- About Us -->
+    <item
+        android:id="@+id/about_menu"
+        android:orderInCategory="108"
+        android:title="About Us"
+        app:showAsAction="never" />
+
+    <!-- Logout -->
+    <item
+        android:id="@+id/logout_menu"
+        android:orderInCategory="113"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>
