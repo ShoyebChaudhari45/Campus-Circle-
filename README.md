@@ -68,16 +68,26 @@ It ensures seamless interaction between students and faculty with role-based acc
 
 ---
 
-## 👨‍💻 Developer  
+## 🤝 Collaboration
 
-Shoyeb Chaudhari  
-GitHub: https://github.com/ShoyebChaudhari45  
+This project was collaboratively developed by:
+
+- **Shoyeb Chaudhari**  
+  GitHub: [@ShoyebChaudhari45](https://github.com/ShoyebChaudhari45)
+
+- **Gauri Kapadnis**  
+  GitHub: [@gauri04k](https://github.com/gauri04k)
+
 
 ---
 
 ## ⭐ Support  
 
-If you like this project:  
-⭐ Star the repository  
-🔁 Share with others  
-🚀 Follow for more projects  
+⭐ Support
+
+If you found this project helpful:
+
+⭐ Star this repository
+🍴 Fork it
+🔁 Share it with others
+🚀 Follow the contributors
